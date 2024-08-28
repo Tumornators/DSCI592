@@ -29,8 +29,8 @@ Specifically, this project aims at four research objectives:
 
 Repository Contents:
 
-1. CNN_Models.ipynb - Contains the code for all data pre-processing, model building, training, testing, validation, LIME heatmap, and all model evaluation metrics
-2. Lung_CT_ML_pipeline.ipynb -Contains the code 
+1. CNN_Models.ipynb - Contains the code for all data pre-processing, model building, training, testing, validation, LIME heatmap, and all CNN model evaluation metrics
+2. Lung_CT_ML_pipeline.ipynb -Contains the code for the feature extraction and model building, training, testing, validation, and all logistic regression model evaluation metrics
 3. pipeline_updates.ipynb - Contains the code for the image segmentation pipeline 
 4. README.md - Contains this README file
 5. EDA.ipynb - Contains all of the Eexploratory Data Analysis performed in this project
@@ -38,7 +38,6 @@ Repository Contents:
 Stakeholders and Use:
 
 Our motivations for this project are to provide an accurate, machine-learning based approach to accurately predicting/classifying malignant and non-malignant tissue from a given CT scan. The importance of early detection and accurate diagnosis play a critical role in improving patient outcomes that can lead to faster treatment along the disease timeline and improve the survival rate. This tool can ultimately support the entire healthcare industry by aiding healthcare doctors in reviewing CT scans as medical image classification tools are a valuable asset in all doctor's arsenals. In addition, the tool can support research scientists, who are constantly developing tools to be used for more accurate classification and predictions. Lastly, the tool can support actual patients and potentially improve their outcomes. This reinforces the significance of developing a successful and reliable model within the world of healthcare. 
-
 
 Data Sources:
 
