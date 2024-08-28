@@ -3,8 +3,11 @@ Drexel University Master of Data Science Capstone II - 8/29/2024
 
 Authors:
 Joseph Novak - Drexel University Graduate Student, jn875@drexel.edu
+
 Shawn Oyer - Drexel University Graduate Student, sbo33@drexel.edu
+
 Patrick O'Brien - Drexel University Graduate Student, pjo44@drexel.edu
+
 Thu Tran, Drexel University Graduate Student, tt537@dragons.drexel.edu
 
 Abstract:
@@ -13,9 +16,13 @@ Here
 Research Objectives: 
 Specifically, this project aims at four research objectives:
 1.Build a machine learning model(s) for accurate diagnosis of lung cancer from CT scans
+
 2. Compare the effects of image segmentation and feature extraction on model(s) performance and benchmark against automated feature extraction in deep learning model(s)
+3. 
 3 . Determine and visualize pixels/features highly impacting model(s) classification.
-4. Assess the effectiveness of model(s) performance in an external validation setting.
+   
+5. Assess the effectiveness of model(s) performance in an external validation setting.
+6. 
 
 Repository Contents:
 
