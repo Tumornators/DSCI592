@@ -23,7 +23,7 @@ Specifically, this project aims at four research objectives:
 
 2. Compare the effects of image segmentation and feature extraction on model(s) performance and benchmark against automated feature extraction in deep learning model(s)
    
-3 . Determine and visualize pixels/features highly impacting model(s) classification.
+3. Determine and visualize pixels/features highly impacting model(s) classification.
    
 4. Assess the effectiveness of model(s) performance in an external validation setting.
 
