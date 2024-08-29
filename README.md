@@ -31,9 +31,10 @@ Repository Contents:
 
 1. CNN_Models.ipynb - Contains the code for all data pre-processing, model building, training, testing, validation, LIME heatmap, and all CNN model evaluation metrics
 2. Lung_CT_ML_pipeline.ipynb -Contains the code for the feature extraction and model building, training, testing, validation, and all logistic regression model evaluation metrics
-3. pipeline_updates.ipynb - Contains the code for the image segmentation pipeline 
-4. README.md - Contains this README file
-5. EDA.ipynb - Contains all of the Exploratory Data Analysis performed in this project
+3. Image_Segmentation.ipynb - Contains the code for the skimage segmentation pipeline & UNET segmentation
+4. UNET.ipynb - Contains the code for creating and training UNET model
+5. README.md - Contains this README file
+6. EDA.ipynb - Contains all of the Exploratory Data Analysis performed in this project
 
 Stakeholders and Use:
 
