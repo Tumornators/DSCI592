@@ -33,7 +33,7 @@ Repository Contents:
 2. Lung_CT_ML_pipeline.ipynb -Contains the code for the feature extraction and model building, training, testing, validation, and all logistic regression model evaluation metrics
 3. pipeline_updates.ipynb - Contains the code for the image segmentation pipeline 
 4. README.md - Contains this README file
-5. EDA.ipynb - Contains all of the Eexploratory Data Analysis performed in this project
+5. EDA.ipynb - Contains all of the Exploratory Data Analysis performed in this project
 
 Stakeholders and Use:
 
