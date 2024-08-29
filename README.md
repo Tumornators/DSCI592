@@ -41,9 +41,9 @@ Our motivations for this project are to provide an accurate, machine-learning ba
 
 Data Sources:
 
-The first data source called the Iraq-Oncology Teaching Hospital/National Center for Cancer Diseases (IQ-OTH/NCCD) was used as a training and testing dataset that can be downloaded here: \href{https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/data}{IQ-OTH/NCCD download}. The dataset is based on 110 cases collected in 2019 varying in gender, age, educational attainment, area of residence, and living status \cite{AlYasriy2023}. It contains 1102 images in JPG format divided into separate directories: Malignant, Benign, and Normal. 
+The first data source called the Iraq-Oncology Teaching Hospital/National Center for Cancer Diseases (IQ-OTH/NCCD) was used as a training and testing dataset that can be downloaded here: https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/data. The dataset is based on 110 cases collected in 2019 varying in gender, age, educational attainment, area of residence, and living status (AlYasriy et al., 2023). It contains 1102 images in JPG format divided into separate directories: Malignant, Benign, and Normal. 
 
-The second data source called the DLCT Lung Detect Net was used as a validation dataset that can be downloaded here: \href{https://www.kaggle.com/datasets/harshaldharpure/dlctlungdetectnet-lung-tumor-dataset}{DLCTLungDetectNet download}. The dataset is a comprehensive and curated collection of diverse datasets related to lung tumors and pulmonary conditions \cite{Dharpure2024}. It contains 1000 images in JPG and PNG format divided into separate directories: Adenocarcinoma, Large Cell Carcinoma, Squamous Cell Carcinoma, and Normal.
+The second data source called the DLCT Lung Detect Net was used as a validation dataset that can be downloaded here: https://www.kaggle.com/datasets/harshaldharpure/dlctlungdetectnet-lung-tumor-dataset. The dataset is a comprehensive and curated collection of diverse datasets related to lung tumors and pulmonary conditions (Dharpure, 2024). It contains 1000 images in JPG and PNG format divided into separate directories: Adenocarcinoma, Large Cell Carcinoma, Squamous Cell Carcinoma, and Normal.
 
 Using the Scripts:
 
