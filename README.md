@@ -13,7 +13,7 @@ Thu Tran, Drexel University Graduate Student, tt537@dragons.drexel.edu
 
 Abstract:
 
-Here
+Lung cancer remains one of the deadliest cancers worldwide, with high mortality rates underscoring the urgent need for early and accurate diagnosis. In this study, we present a machine learning-based diagnostic toolset to discern healthy lung tissue from malignant tissue using computed tomography (CT) imagery. Our approach utilized two publicly available datasets: Iraq-Oncology Teaching Hospital/National Center for Cancer Diseases (IQ-OTH/NCCD) Lung Cancer dataset for model training/testing and the DLCTLungDetectNet dataset for validation. An image processing and UNET-based segmentation pipeline were developed, and two primary methodologies were evaluated: one utilizing raw and segmented lung scans fed into a Convolutional Neural Network (CNN), and another focusing on the extraction of texture features from segmented lung tissue for input into a Logistic Regression model. The CNN model trained on raw images exhibited near-perfect performance on the testing dataset but showed significant degradation in performance during external validation, suggesting overfitting and sensitivity to dataset differences. Conversely, the texture-based Logistic Regression model demonstrated more stable performance across both the testing and validation datasets, achieving the highest validation weighted F1 score of 80\%, highlighting its potential for broader application. Our findings reveal the critical importance of image segmentation and feature extraction techniques in developing reliable diagnostic tools for prediction of lung cancer.
 
 Research Objectives: 
 
@@ -55,4 +55,22 @@ All data used were sourced from Kaggle and freely available under CC0 1.0 licens
 
 References:
 
+1. Al-Yasriy, Hamdalla, and Muayed Al-Huseiny. “The IQ-OTH/NCCD lung cancer dataset.” Kaggle, Mendeley Data, 2023, https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset/data. Accessed 27 August 2024.
 
+2. Dharpure, Harshal. “DLCTlUNGDetectNet - Lung Tumor Dataset.” Kaggle, Kaggle, 2024, https://www.kaggle.com/datasets/harshaldharpure/dlctlungdetectnet-lung-tumor-dataset. Accessed 27 August 2024.
+
+3. Falk, Thorsten, et al. “U-NET: Deep Learning for Cell Counting, Detection, and Morpometry.” Research Gate, Nature Methods, January 2019, https://www.researchgate.net/publication/329716031_U-Net_deep_learning_for_cell_counting_detection_and_morphometry. Accessed 17 August 2024.
+
+4. Ge, Yanqiu, et al. “Predicting post-stroke pneumonia using deep learning neural network approaches.” Pub Med, Int J Med Informatics, December 2019, https://pubmed.ncbi.nlm.nih.gov/31629312/. Accessed 17 August 2024.
+
+5. Gobara, Mohamed. “Lung Cancer 98.8% Custom CNN Model.” Kaggle, Kaggle, January 2024, https://www.kaggle.com/code/mohamedgobara/lung-cancer-98-8-custom-cnn-model. Accessed 01 August 2024.
+
+6. Naiborhu, Josua. “How to Interpret Black Box Models using LIME (Local Interpretable Model-Agnostic Explanations).” freeCodeCamp, 17 October 2022, https://www.freecodecamp.org/news/interpret-black-box-model-using-lime/. Accessed 28 August 2024.
+
+7. National Cancer Institute. “Cancer of Any Site — Cancer Stat Facts.” SEER Cancer, National Cancer Institute, 2024, https://seer.cancer.gov/statfacts/html/all.html. Accessed 27 August 2024.
+
+8. Shafi, Imran, et al. “An Effective Method for Lung Cancer Diagnosis from CT Scan Using Deep Learning-Based Support Vector Network.” NCBI, Cancers, 6 November 2022, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9657078/. Accessed 29 August 2024.
+
+9. Sprang, Maximilian, et al. “Batch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality - BMC Bioinformatics.” BMC Bioinformatics, 14 July 2022, https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04775-y. Accessed 19 August 2024.
+
+10. Wright, George W., et al. “A Probabilistic Classification Tool for Genetic Subtypes of Diffuse Large B Cell Lymphoma with Therapeutic Implications.” Cancer Cell, vol. 37, no. 4, 2020, pp. 551-568. Cancer Cell, https://doi.org/10.1016/j.ccell.2020.03.015. Accessed 27 August 2024.
